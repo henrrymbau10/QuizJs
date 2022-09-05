@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  }
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header{
+    padding: 4rem 0
+}
+
+.header h2{
+    color: #F1D81C;
+    text-align: center;
+    font-size: 50px;
+}
+
+.result p {
+    text-align: center;
+    padding: 2rem 0 0 0 ;
+    font-size: 30px;
+    display: none;
+}
+
+.result-text{
+    text-align: center;
+    font-size: 30px;
+    padding: 2rem 0 0 0;
+}
+
+.quiz h2{
+     text-align: center;
+     padding: 2rem 0 0 0;
+}
+
+.container{
+    background : #F1D81C;
+}
+
+.quiz-form{
+    padding-left: 10%;
+}
+
+.quiz-form p { 
+    padding: 2rem 0 1rem 0;
+    width: 90%;
+}
+
+label { 
+    padding: 1rem 0 0rem 0;
+}
+
+.button-container input {
+    padding: .5rem 2rem;
+    background-color: black;
+    color: #F1D81C;
+    margin: 2rem 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.button-container input:hover{ 
+    color: black;
+    background: transparent;
+}

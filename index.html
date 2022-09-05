@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet" />
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-container">
+            <h2 class="header-tittle">Preguntas JS</h2>
+        </div>
+    </div>
+
+    <div class="result">
+        <div class="container">
+            <p class="result-text">Has acertado un <span>0%</span> de las preguntas</p>
+        </div>
+    </div>
+
+    <div class="quiz">
+        <div class="container">
+            <h2>¿Que tanto sabes de JavaScript?</h2>
+
+            <form class="quiz-form">
+                <div>
+                    <p class="question">¿Cuál es la sintaxis de JavaScript correcta para cambiar el contenido del
+                        elemento HTML a continuación? <br>&lt;p id="demo"&gt;Esto es una
+                        demostracion&lt;/p&gt;</p>
+                    <div>
+                        <input type="radio" name="q1" value="A" />
+                        <label class=""> document.getElementByName("p").innerHTML = "Hello World!";</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q1" value="B" />
+                        <label class=""> document.getElementById("demo").innerHTML = "Hello World!";</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">¿Cómo comienza un bucle WHILE?</p>
+                    <div>
+                        <input type="radio" name="q2" value="A" />
+                        <label class=""> while (i &lt;= 10; i++)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q2" value="B" />
+                        <label class=""> while (i &lt;= 10)</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">¿Cómo encuentras el número con el valor más alto de x e y?</p>
+                    <div>
+                        <input type="radio" name="q4" value="A" />
+                        <label class=""> Math.max(x, y)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q4" value="B" />
+                        <label class=""> Math.ceil(x, y)</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">¿Qué evento ocurre cuando el usuario hace clic en un elemento HTML?</p>
+                    <div>
+                        <input type="radio" name="q5" value="A" />
+                        <label class=""> onMouseClick</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q5" value="B" />
+                        <label class=""> Onclick</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">¿Qué operador se utiliza para asignar un valor a una variable?</p>
+                    <div>
+                        <input type="radio" name="q6" value="A" />
+                        <label class=""> = </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="q6" value="B" />
+                        <label class=""> == </label>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
